@@ -20,10 +20,10 @@ export default function E11() {
     }
 
     return (
-        <div className='pagina-e11'>
+        <div className='pagina-e11 pagina'>
             <div className='cabecalho'>
                 <div className='titulo'>
-                    <img src='/logo.png' alt='logo'/>
+                <img src="./assets/images/logo.png" alt="logo" />
                     <h1>
                         React FreiS
                     </h1>
@@ -36,7 +36,12 @@ export default function E11() {
             <div className='exercicio'>
                 <div className='titulo'>
                     <div className='texto'>
-                        <Link to='/'><img src='/voltar.png' alt='voltar' /></Link>
+                    <Link to='/'>
+                    <img
+              className="voltar"
+              src="./assets/images/voltar.png"
+              alt="logo"/>
+                    </Link>
                         <h2>Exercício 11 - Tabuada</h2>
                     </div>
                     <div className='faixa roxa'/>

@@ -32,6 +32,10 @@
 
     .exercicio {
         padding: 60px;
+        
+        .voltar{
+            height: 50px;
+        }
 
         .titulo {
             .texto {
@@ -106,6 +110,7 @@
                     color: white;
                     border-radius: 8px;
                 }
+
             }
 
             .resultado {
