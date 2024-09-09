@@ -35,13 +35,17 @@
 
         .cards {
             display: flex;
-            gap: 40px;
+            gap: 50px;
             margin-top: 36px;
 
             flex-wrap: wrap;
 
+
+
+
             .link {
                 text-decoration: none;
+
             }
 
             .card {
@@ -49,7 +53,6 @@
                 height: 160px;
                 border-radius: 12px;
 
-                font-size: 24px;
                 text-align: center;
                 align-content: center;
                 background-color: white;
@@ -88,7 +91,7 @@
                 }
 
                 .titulo {
-                    font-size: 16px;
+                    font-size: 12px;
                     font-weight: bold;
                     margin-top: 10px;
                     color: #383131;
