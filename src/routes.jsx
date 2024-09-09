@@ -5,7 +5,7 @@ import E01 from "./pages/e01/index.jsx";
 import E02 from "./pages/e02/index.jsx";
 import E03 from "./pages/e03/index.jsx";
 import E04 from "./pages/e04/index.jsx";
-import E05 from "./pages/e04/index.jsx";
+import E05 from "./pages/e05/index.jsx";
 
 import E11 from "./pages/e11";
 

@@ -2,19 +2,10 @@ import { Link } from "react-router-dom";
 import "./index.scss";
 import { useState } from "react";
 
-export default function E05() {
-const [nota1,setNota1] = useState(0);
-const [nota2,setNota2] = useState(0);
-const [nota3,setNota3] = useState(0);
-const [total,setTotal] = useState(0);
-
-function media(){
-
-  setTotal()
-}
+export default function E04() {
 
   return (
-    <div className="pagina-e05 pagina">
+    <div className="pagina-e04 pagina">
       <div className="cabecalho">
         <div className="titulo">
           <img src="./assets/images/logo.png" alt="logo" />
@@ -44,7 +35,7 @@ function media(){
               />
             </Link>
 
-            <h2>Exercício 05 - Média de Notas</h2>
+            <h2>Exercício 05 - Leitura de livro</h2>
           </div>
           <hr className="faixa" />
         </div>
@@ -53,7 +44,10 @@ function media(){
 
         <div className="descricao">
           <p>
-          Implemente um programa em Javascript para verificar se um aluno passou ou não, baseado em 3 notas, considerando que a média mínima para passar é 6.
+            Implementar um programa em Javascript que calcule o tempo que um
+            livro será lido por uma pessoa a partir do nome do livro, do total
+            de páginas e do tempo em
+            <br /> segundos de leitura por página
           </p>
         </div>
         <div className="formulario">
@@ -64,25 +58,25 @@ function media(){
 
               <div className="campo">
                 
-                <label>Nota 01</label>
-                <input type="text" placeholder="Digite" onChange={(e) => setNomeLivro(e.target.value)} />
+                <label>Nome do livro</label>
+                <input type="text" placeholder="Digite"  />
               </div>
 
               <div className="campo">
-                <label>Nota 02</label>
-                <input type="text" placeholder="0"  onChange={(e) =>setPaginas(e.target.value)}/>
+                <label>Total de página</label>
+                <input type="text" placeholder="0"  />
               </div>
 
               <div className="campo">
-                <label>Nota 03</label>
-                <input type="text" placeholder="0" onChange={(e) =>setTempo(e.target.value)}/>
+                <label>Tempo em segundos de leitura</label>
+                <input type="text" placeholder="0" />
               </div>
 
             </div>
 
-            <button className="executar" onClick={calculo} >Executar </button>
+            <button className="executar"  >Executar </button>
 
-            <h3>A média do aluno é {savelivro} em {setLeitura} horas </h3>
+            <h3>Você lera {} em {} horas </h3>
           </div>
           
         </div>
@@ -92,3 +86,4 @@ function media(){
     </div>
   );
 }
+/*(((tempo*paginas) / 60)/60).toFixed(2)*/

@@ -59,8 +59,8 @@ export default function Inicio() {
           <Link to="/e05" className="link">
             <div className="card">
               <div className="retangulo azuzin" />
-              <h3 className="titulo">Média de Notas</h3>
-              <h4 className="subtitulo">Exercício 5</h4>
+              <h3 className="titulo">Leitura de livro</h3>
+              <h4 className="subtitulo">Exercício 4</h4>
             </div>
           </Link>
 
