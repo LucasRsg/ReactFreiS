@@ -56,6 +56,14 @@ export default function Inicio() {
             </div>
           </Link>
 
+          <Link to="/e05" className="link">
+            <div className="card">
+              <div className="retangulo azuzin" />
+              <h3 className="titulo">Leitura de livro</h3>
+              <h4 className="subtitulo">Exercício 4</h4>
+            </div>
+          </Link>
+
           <Link to="/e11" className="link">
             <div className="card">
               <div className="retangulo roxo" />

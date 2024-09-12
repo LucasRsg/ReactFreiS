@@ -35,15 +35,21 @@
 
         .cards {
             display: flex;
-            gap: 20px;
+            gap: 50px;
             margin-top: 36px;
+
+            flex-wrap: wrap;
+
+
+
 
             .link {
                 text-decoration: none;
+
             }
 
             .card {
-                width: 215px;
+                width: 200px;
                 height: 160px;
                 border-radius: 12px;
 
@@ -76,7 +82,7 @@
                     background-color: cyan;
                 }
 
-                .zuzin {
+                .azuzin {
                     background-color: blue;
                 }
 
@@ -85,7 +91,7 @@
                 }
 
                 .titulo {
-                    font-size: 16px;
+                    font-size: 12px;
                     font-weight: bold;
                     margin-top: 10px;
                     color: #383131;
