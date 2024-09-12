@@ -1,0 +1,26 @@
+CREATE DATABASE INFO_B;
+
+-- CRIAR TABELA --
+
+CREATE TABLE TB_aluno (
+  PessoaID INT PRIMARY KEY auto_increment,
+  NM_Nome VARCHAR(100),
+  Ds_turma VARCHAR(100),
+  Dt_nascimento Date,
+  Cidade VARCHAR(100)
+);
+
+--INSERIR INFORMAÇÕES NA TABELA --
+insert into TB_aluno (NM_Nome,Ds_Turma,Dt_nascimento,Cidade)
+	Values(
+	"Robson",
+        "Info B",
+        "2024-11-14",
+        "São Paulo"     
+         
+    );
+
+SELECT * FROM tB_aluno;
+SHOW TABLES;
+SHOW DATABASES ;
+DROP TABLE Tb_aluno;
